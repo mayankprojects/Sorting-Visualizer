@@ -1,0 +1,159 @@
+/* Responsive Design for larger screens (1200px - 1500px) */
+@media screen and (max-width: 1500px) {
+    nav .header_right .algos button {
+        width: 150px;
+        font-size: large;
+    }
+
+    nav .header_right .nav-heading {
+        font-size: xx-large;
+        padding: 2%;
+    }
+
+    section {
+        grid-template-columns: 25% 50% 25%;
+    }
+}
+
+/* Responsive Design for medium screens (768px - 1199px) */
+@media screen and (max-width: 1199px) {
+    nav .header_right .nav-heading {
+        font-size: x-large;
+        padding: 2%;
+    }
+
+    .algos ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    nav .header_right .algos button {
+        width: 130px;
+        font-size: medium;
+        height: 35px;
+    }
+
+    .array-inputs ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .array-inputs p {
+        text-align: center;
+        right: 0;
+    }
+
+    section {
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    section #array_container {
+        height: 60vh;
+    }
+}
+
+/* Responsive Design for tablet screens (576px - 767px) */
+@media screen and (max-width: 767px) {
+    nav {
+        grid-template-rows: auto;
+        padding: 2%;
+    }
+
+    nav .header_right .nav-heading {
+        font-size: large;
+        padding: 1%;
+    }
+
+    nav .header_right .algos button {
+        width: 110px;
+        font-size: small;
+        height: 30px;
+    }
+
+    section {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+    }
+
+    section #Info_Cont1,
+    section #Info_Cont2 {
+        padding: 5%;
+    }
+
+    section #array_container {
+        height: 50vh;
+        order: -1;
+    }
+
+    .array-inputs {
+        padding: 4% 2%;
+    }
+}
+
+/* Responsive Design for mobile screens (575px and below) */
+@media screen and (max-width: 575px) {
+    * {
+        font-size: medium;
+    }
+
+    nav .header_right .nav-heading {
+        font-size: large;
+        padding: 3%;
+    }
+
+    .algos ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav .header_right .algos button {
+        width: 200px;
+        font-size: small;
+        height: 35px;
+    }
+
+    .array-inputs ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .array-inputs p {
+        padding-bottom: 5px;
+    }
+
+    .array-inputs #a_generate {
+        padding: 2% 0%;
+        padding-left: 10%;
+    }
+
+    section #array_container {
+        height: 40vh;
+    }
+
+    section .Complexity_Containers .Pair_Definitions {
+        margin-top: 5%;
+    }
+
+    section #Info_Cont1 p,
+    section #Info_Cont2 p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Design for very small screens (350px and below) */
+@media screen and (max-width: 350px) {
+    nav .header_right .nav-heading {
+        font-size: medium;
+    }
+
+    nav .header_right .algos button {
+        width: 150px;
+        height: 30px;
+    }
+
+    section #array_container {
+        height: 35vh;
+    }
+}

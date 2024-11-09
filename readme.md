@@ -1,0 +1,4 @@
+-> First main is triggered
+-> Then accordingly sorting algo is triggered. 
+-> The sorting also takes the help of visualizations
+   - changes the color and height
